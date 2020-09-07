@@ -74,6 +74,11 @@
   #counter .counter-box h3 {
     font-size: 40px;
   }
+
+  #app-features .show-box img {
+    width: 100%;
+    position: relative;
+  }
   .back-to-top {
     bottom: 55px;
   }
@@ -356,14 +361,17 @@
     text-transform: capitalize;
     font-size: 14px;
   }
-  #carousel-area .carousel-control-next i, #carousel-area .carousel-control-prev i {
+  #carousel-area .carousel-control-next i,
+  #carousel-area .carousel-control-prev i {
     background: transparent !important;
   }
-  #carousel-area .carousel-control-next i:hover, #carousel-area .carousel-control-prev i:hover {
+  #carousel-area .carousel-control-next i:hover,
+  #carousel-area .carousel-control-prev i:hover {
     background: transparent !important;
     border: none !important;
   }
-  #carousel-area .carousel-control-next i, #carousel-area .carousel-control-prev i {
+  #carousel-area .carousel-control-next i,
+  #carousel-area .carousel-control-prev i {
     color: #fff;
   }
   #carousel-area .carousel-control-prev {
