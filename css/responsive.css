@@ -184,8 +184,9 @@
     padding: 0;
   }
   .bg-inverse {
-    background: #191c1e;
+    background: black;
   }
+
   .navbar-expand-md .navbar-brand,
   .navbar-expand-md .navbar-toggler {
     margin: 6px 15px;
@@ -304,8 +305,21 @@
     padding: 0;
   }
   .bg-inverse {
-    background: #191c1e;
+    background: white;
   }
+
+  .bg-inverse button {
+    background: #2dfbff !important;
+  }
+
+  .bg-inverse li {
+    background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+  }
+
+  .bg-inverse a {
+    text-decoration: none;
+  }
+
   .navbar-expand-md .navbar-brand,
   .navbar-expand-md .navbar-toggler {
     margin: 6px 15px;
